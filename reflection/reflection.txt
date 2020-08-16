@@ -1,0 +1,25 @@
+Reflection - Readme
+----------------------------------------------------------------
+http://quadropolis.us/node/4150
+----------------------------------------------------------------
+Title		: Reflection
+
+Authors		: James 'Skur' Rucks	(jamesleerucks@gmail.com)
+		: Yannick 'Snowy' Weber	(snowykov@outlook.com)
+
+Release Date	: 2014-10-21
+
+Version		: 1.0
+
+License		: CC BY-SA 3.0
+
+If you include this map in a mappack or publish it on your website you HAVE to include this readme file.
+----------------------------------------------------------------
+A CTF map for Tesseract (tesseract.gg)
+
+Special thanks AGF81 for the textures.
+----------------------------------------------------------------
+
+Happy fragging!
+
+ -Skur & Snowy

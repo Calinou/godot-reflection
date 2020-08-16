@@ -1,0 +1,18 @@
+[gd_resource type="Environment" load_steps=3 format=2]
+
+[sub_resource type="ProceduralSkyMaterial" id=1]
+
+[sub_resource type="Sky" id=2]
+sky_material = SubResource( 1 )
+
+[resource]
+background_mode = 2
+sky = SubResource( 2 )
+tonemap_mode = 2
+tonemap_white = 6.0
+ssao_enabled = true
+sdfgi_read_sky_light = true
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.003
+volumetric_fog_gi_inject = 1.0
+volumetric_fog_shadow_filter = 3

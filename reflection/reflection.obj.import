@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/reflection.obj-56cb96069a10b5a2020cc30609bce652.mesh"
+
+[deps]
+
+files=[ "res://.import/reflection.obj-56cb96069a10b5a2020cc30609bce652.mesh" ]
+
+source_file="res://reflection/reflection.obj"
+dest_files=[ "res://.import/reflection.obj-56cb96069a10b5a2020cc30609bce652.mesh", "res://.import/reflection.obj-56cb96069a10b5a2020cc30609bce652.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 0.1, 0.1, 0.1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
