@@ -4,6 +4,8 @@
 
 A port of [Tesseract](http://tesseract.gg)'s Reflection map for testing Godot 4.0's new renderer.
 
+The OBJ and MTL files were sourced from [game-maps-obj](https://github.com/Calinou/game-maps-obj).
+
 ## Try it out
 
 ### Installation
