@@ -45,3 +45,6 @@ Copyright © 2020 Hugo Locurcio and contributors
   - `base/`: CC0 1.0 Universal
   - `nieb/`: CC0 1.0 Universal
   - `nobiax/`: CC0 1.0 Universal
+
+A big thanks to the Cube 2 engine community for making and releasing all these maps
+:slightly_smiling_face:
