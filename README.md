@@ -27,6 +27,10 @@ by the editor). Exit the editor (go back to the project manager), then run
 the project. This is to make sure the editor does not render the demo in
 the background, which would slow down the running project a lot.
 
+**Note:** If some materials don't show up, try selecting
+`reflection/reflection.obj` in the FileSystem dock, go to the Import dock then
+click **Reimport**.
+
 ## License
 
 Copyright © 2020 Hugo Locurcio and contributors
