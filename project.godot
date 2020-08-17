@@ -15,12 +15,65 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Reflection"
-config/description="Tesseract's Reflection map ported to Godot for demonstrating GIProbe and volumetric fog."
+config/name="Tesseract Reflection Map"
 run/main_scene="res://reflection/reflection.tscn"
 config/icon="res://icon.png"
+
+[input]
+
+move_forward={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"keycode":0,"physical_keycode":87,"unicode":0,"echo":false,"script":null)
+ ]
+}
+move_backward={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"keycode":0,"physical_keycode":83,"unicode":0,"echo":false,"script":null)
+ ]
+}
+move_left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"keycode":0,"physical_keycode":65,"unicode":0,"echo":false,"script":null)
+ ]
+}
+move_right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"keycode":0,"physical_keycode":68,"unicode":0,"echo":false,"script":null)
+ ]
+}
+move_up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"keycode":0,"physical_keycode":69,"unicode":0,"echo":false,"script":null)
+ ]
+}
+move_down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"keycode":0,"physical_keycode":81,"unicode":0,"echo":false,"script":null)
+ ]
+}
+movement_speed_increase={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":4,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+movement_speed_decrease={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":5,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+move_speed={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"keycode":16777237,"physical_keycode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+toggle_mouse_capture={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"keycode":16777253,"physical_keycode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
 
 [rendering]
 
 environment/default_environment="res://default_env.tres"
 quality/screen_filters/screen_space_aa=1
+volumetric_fog/use_filter=1
