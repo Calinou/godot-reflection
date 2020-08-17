@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Reflection"
+config/description="Tesseract's Reflection map ported to Godot for demonstrating GIProbe and volumetric fog."
 run/main_scene="res://reflection/reflection.tscn"
 config/icon="res://icon.png"
 
