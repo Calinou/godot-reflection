@@ -7,6 +7,10 @@ Uses GIProbe for global illumination in addition to volumetric fog.
 
 The OBJ and MTL files were sourced from [game-maps-obj](https://github.com/Calinou/game-maps-obj).
 
+*Looking for a darker, greener, shinier version of this scene? See the
+[`tweaks-green`](https://github.com/Calinou/godot-reflection/tree/tweaks-green)
+branch.*
+
 *Looking for an open world test scene? See [godot-cmvalley](https://github.com/Calinou/godot-cmvalley).*
 
 ## Try it out
