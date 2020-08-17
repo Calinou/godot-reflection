@@ -3,8 +3,11 @@
 [![Screenshot of Reflection](https://raw.githubusercontent.com/Calinou/media/master/godot-reflection/screenshot-thumb.png)](https://raw.githubusercontent.com/Calinou/media/master/godot-reflection/screenshot.png)
 
 A port of [Tesseract](http://tesseract.gg)'s Reflection map for testing Godot 4.0's new renderer.
+Uses GIProbe for global illumination in addition to volumetric fog.
 
 The OBJ and MTL files were sourced from [game-maps-obj](https://github.com/Calinou/game-maps-obj).
+
+*Looking for an open world test scene? See [godot-cmvalley](https://github.com/Calinou/godot-cmvalley).*
 
 ## Try it out
 
