@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=2]
+
+[ext_resource path="res://reflection/nobiax/pattern205_diffuse.png" type="Texture2D" id=1]
+
+[resource]
+resource_name = "slot54"
+albedo_texture = ExtResource( 1 )
