@@ -1,121 +1,54 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://reflection/reflection.obj" type="ArrayMesh" id=1]
-[ext_resource path="res://reflection/reflection.GIProbe_data.res" type="GIProbeData" id=2]
+[ext_resource path="res://camera.gd" type="Script" id=2]
+[ext_resource path="res://reflection/reflection.GIProbe_data.res" type="GIProbeData" id=3]
+[ext_resource path="res://reflection/reflection.obj" type="PackedScene" id=4]
+
+[sub_resource type="Environment" id=1]
+background_mode = 1
+background_color = Color( 0.784314, 0.839216, 0.792157, 1 )
+tonemap_mode = 2
+tonemap_white = 6.0
+ssao_enabled = true
+sdfgi_use_multi_bounce = true
+sdfgi_use_occlusion = true
+sdfgi_cascades = 0
+sdfgi_min_cell_size = 0.41
+sdfgi_cascade0_distance = 26.24
+sdfgi_max_distance = 419.84
+sdfgi_energy = 2.306
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0018
+volumetric_fog_gi_inject = 0.69
 
 [node name="Node3D" type="Node3D"]
 script = null
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -100, 0 )
-gi_mode = 1
-mesh = ExtResource( 1 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
-material/9 = null
-material/10 = null
-material/11 = null
-material/12 = null
-material/13 = null
-material/14 = null
-material/15 = null
-material/16 = null
-material/17 = null
-material/18 = null
-material/19 = null
-material/20 = null
-material/21 = null
-material/22 = null
-material/23 = null
-material/24 = null
-material/25 = null
-material/26 = null
-material/27 = null
-material/28 = null
-material/29 = null
-material/30 = null
-material/31 = null
-material/32 = null
-material/33 = null
-material/34 = null
-material/35 = null
-material/36 = null
-material/37 = null
-material/38 = null
-material/39 = null
-material/40 = null
-material/41 = null
-material/42 = null
-material/43 = null
-material/44 = null
-material/45 = null
-material/46 = null
-material/47 = null
-material/48 = null
-material/49 = null
-material/50 = null
-material/51 = null
-material/52 = null
-material/53 = null
-material/54 = null
-material/55 = null
-material/56 = null
-material/57 = null
-material/58 = null
-material/59 = null
-material/60 = null
-material/61 = null
-material/62 = null
-material/63 = null
-material/64 = null
-material/65 = null
-material/66 = null
-material/67 = null
-material/68 = null
-material/69 = null
-material/70 = null
-material/71 = null
-material/72 = null
-material/73 = null
-material/74 = null
-material/75 = null
-material/76 = null
-material/77 = null
-material/78 = null
-material/79 = null
-material/80 = null
-material/81 = null
-material/82 = null
-material/83 = null
-material/84 = null
-material/85 = null
-material/86 = null
-material/87 = null
-material/88 = null
-material/89 = null
-script = null
+[node name="reflection" parent="." instance=ExtResource( 4 )]
+transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -86.5034, 0 )
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform( -0.26636, -0.960429, 0.0814203, 0, 0.084472, 0.996426, -0.963874, 0.265408, -0.0225, 1.36138, 9.05963, 3.47213 )
+transform = Transform( 0.952193, 0.103041, 0.287594, -0.305496, 0.321167, 0.896395, 0, -0.9414, 0.337292, 0, 0, 0 )
+light_color = Color( 0.870588, 0.992157, 0.980392, 1 )
+light_energy = 3.5
+light_indirect_energy = 5.0
 shadow_enabled = true
-directional_shadow_fade_start = 1.0
 directional_shadow_blend_splits = true
-directional_shadow_max_distance = 110.0
+directional_shadow_max_distance = 80.0
+script = null
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 1 )
 script = null
 
 [node name="GIProbe" type="GIProbe" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.7334, 0 )
-extents = Vector3( 85.0481, 25.2274, 61.8599 )
-data = ExtResource( 2 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0739206, 17.7558, -0.00268736 )
+extents = Vector3( 101.348, 22.1629, 73.2402 )
+data = ExtResource( 3 )
 script = null
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform( -0.697768, -0.104079, 0.708723, 0, 0.989388, 0.145296, -0.716324, 0.101383, -0.690363, 35.5336, 17.5168, -7.62794 )
-script = null
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -5.3252, 20.709, 14.214 )
+near = 0.1
+far = 500.0
+script = ExtResource( 2 )
