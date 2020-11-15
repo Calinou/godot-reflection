@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/pattern042_diffuse.png-872c0dac87ec084a32b89bbfa8769308.s3tc.stex"
-path.etc2="res://.import/pattern042_diffuse.png-872c0dac87ec084a32b89bbfa8769308.etc2.stex"
+path.s3tc="res://.godot/imported/pattern042_diffuse.png-872c0dac87ec084a32b89bbfa8769308.s3tc.stex"
+path.etc2="res://.godot/imported/pattern042_diffuse.png-872c0dac87ec084a32b89bbfa8769308.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://reflection/nobiax/pattern042_diffuse.png"
-dest_files=[ "res://.import/pattern042_diffuse.png-872c0dac87ec084a32b89bbfa8769308.s3tc.stex", "res://.import/pattern042_diffuse.png-872c0dac87ec084a32b89bbfa8769308.etc2.stex" ]
+dest_files=[ "res://.godot/imported/pattern042_diffuse.png-872c0dac87ec084a32b89bbfa8769308.s3tc.stex", "res://.godot/imported/pattern042_diffuse.png-872c0dac87ec084a32b89bbfa8769308.etc2.stex" ]
 
 [params]
 

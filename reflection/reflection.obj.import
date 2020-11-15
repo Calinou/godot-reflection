@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/reflection.obj-56cb96069a10b5a2020cc30609bce652.scn"
+path="res://.godot/imported/reflection.obj-56cb96069a10b5a2020cc30609bce652.scn"
 
 [deps]
 
 source_file="res://reflection/reflection.obj"
-dest_files=[ "res://.import/reflection.obj-56cb96069a10b5a2020cc30609bce652.scn" ]
+dest_files=[ "res://.godot/imported/reflection.obj-56cb96069a10b5a2020cc30609bce652.scn" ]
 
 [params]
 

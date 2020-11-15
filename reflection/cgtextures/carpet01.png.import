@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/carpet01.png-131092248a9f3fe22ae6e73c3c4571a2.s3tc.stex"
-path.etc2="res://.import/carpet01.png-131092248a9f3fe22ae6e73c3c4571a2.etc2.stex"
+path.s3tc="res://.godot/imported/carpet01.png-131092248a9f3fe22ae6e73c3c4571a2.s3tc.stex"
+path.etc2="res://.godot/imported/carpet01.png-131092248a9f3fe22ae6e73c3c4571a2.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://reflection/cgtextures/carpet01.png"
-dest_files=[ "res://.import/carpet01.png-131092248a9f3fe22ae6e73c3c4571a2.s3tc.stex", "res://.import/carpet01.png-131092248a9f3fe22ae6e73c3c4571a2.etc2.stex" ]
+dest_files=[ "res://.godot/imported/carpet01.png-131092248a9f3fe22ae6e73c3c4571a2.s3tc.stex", "res://.godot/imported/carpet01.png-131092248a9f3fe22ae6e73c3c4571a2.etc2.stex" ]
 
 [params]
 

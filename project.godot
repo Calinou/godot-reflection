@@ -8,11 +8,6 @@
 
 config_version=4
 
-_global_script_classes=[  ]
-_global_script_class_icons={
-
-}
-
 [application]
 
 config/name="Tesseract Reflection Map"
@@ -74,6 +69,6 @@ toggle_mouse_capture={
 
 [rendering]
 
-environment/default_environment="res://default_env.tres"
-quality/screen_filters/screen_space_aa=1
 volumetric_fog/use_filter=1
+quality/screen_filters/screen_space_aa=1
+environment/default_environment="res://default_env.tres"

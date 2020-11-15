@@ -83,7 +83,7 @@ func _process(delta: float) -> void:
 	motion = motion \
 		.rotated(Vector3(0, 1, 0), rotation.y - initial_rotation) \
 		.rotated(Vector3(1, 0, 0), cos(rotation.y) * rotation.x) \
-		.rotated(Vector3(0, 0, 1), -sin(rotation.y) * rotation.x)
+		.rotated(Vector3(0, 0, 1), -1 * sin(rotation.y) * rotation.x)
 
 	# Add motion, apply friction and velocity
 	velocity += motion * move_speed
