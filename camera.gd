@@ -48,28 +48,13 @@ func _input(event: InputEvent) -> void:
 
 
 func _process(delta: float) -> void:
-	rotation = lerp(rotation, rotation_dest, 0.05)
+	if Input.is_action_pressed("ui_cancel"):
+		get_tree().quit()
+	rotation = lerp(rotation, rotation_dest, 0.1)
 
-	if Input.is_action_pressed("move_forward"):
-		motion.x = -1
-	elif Input.is_action_pressed("move_backward"):
-		motion.x = 1
-	else:
-		motion.x = 0
-
-	if Input.is_action_pressed("move_left"):
-		motion.z = 1
-	elif Input.is_action_pressed("move_right"):
-		motion.z = -1
-	else:
-		motion.z = 0
-
-	if Input.is_action_pressed("move_up"):
-		motion.y = 1
-	elif Input.is_action_pressed("move_down"):
-		motion.y = -1
-	else:
-		motion.y = 0
+	motion.x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
+	motion.y = Input.get_action_strength("move_up") - Input.get_action_strength("move_down")
+	motion.z = Input.get_action_strength("move_back") - Input.get_action_strength("move_forward")
 
 	# Normalize motion
 	# (prevents diagonal movement from being `sqrt(2)` times faster than straight movement)
@@ -79,11 +64,10 @@ func _process(delta: float) -> void:
 	if Input.is_action_pressed("move_speed"):
 		motion *= 2
 
-	# Rotate the motion based on the camera angle
-	motion = motion \
-		.rotated(Vector3(0, 1, 0), rotation.y - initial_rotation) \
-		.rotated(Vector3(1, 0, 0), cos(rotation.y) * rotation.x) \
-		.rotated(Vector3(0, 0, 1), -1 * sin(rotation.y) * rotation.x)
+	# Transform the motion by the camera's transform.
+	# TODO: Basis is missing the "xform" method in master...
+	#motion = transform.basis.xform(motion)
+	motion = transform.basis.x * motion.x + transform.basis.y * motion.y + transform.basis.z * motion.z
 
 	# Add motion, apply friction and velocity
 	velocity += motion * move_speed
