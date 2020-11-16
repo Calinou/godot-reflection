@@ -1,7 +1,0 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=2]
-
-[ext_resource path="res://reflection/nieb/complex/light01.png" type="Texture2D" id=1]
-
-[resource]
-resource_name = "slot108"
-albedo_texture = ExtResource( 1 )
