@@ -2,7 +2,7 @@
 
 [ext_resource path="res://camera.gd" type="Script" id=2]
 [ext_resource path="res://reflection/reflection.GIProbe_data.res" type="GIProbeData" id=3]
-[ext_resource path="res://reflection/reflection.obj" type="PackedScene" id=4]
+[ext_resource path="res://reflection/models/reflection.glb" type="PackedScene" id=4]
 
 [sub_resource type="Environment" id=1]
 background_mode = 1
@@ -21,11 +21,10 @@ volumetric_fog_enabled = true
 volumetric_fog_density = 0.0018
 volumetric_fog_gi_inject = 0.69
 
-[node name="Node3D" type="Node3D"]
+[node name="Reflection" type="Node3D"]
 script = null
 
-[node name="reflection" parent="." instance=ExtResource( 4 )]
-transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -86.5034, 0 )
+[node name="ReflectionModel" parent="." instance=ExtResource( 4 )]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform( 0.952193, 0.103041, 0.287594, -0.305496, 0.321167, 0.896395, 0, -0.9414, 0.337292, 0, 0, 0 )
@@ -42,13 +41,14 @@ environment = SubResource( 1 )
 script = null
 
 [node name="GIProbe" type="GIProbe" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0739206, 17.7558, -0.00268736 )
-extents = Vector3( 101.348, 22.1629, 73.2402 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13, 0 )
+subdiv = 2
+extents = Vector3( 50, 17.5, 50 )
 data = ExtResource( 3 )
 script = null
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -5.3252, 20.709, 14.214 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15, 8 )
 near = 0.1
 far = 500.0
 script = ExtResource( 2 )

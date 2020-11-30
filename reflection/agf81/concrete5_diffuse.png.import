@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/concrete5_diffuse.png-84695481351340403e6d6aaf0e195e36.s3tc.stex"
-path.etc2="res://.import/concrete5_diffuse.png-84695481351340403e6d6aaf0e195e36.etc2.stex"
+path.s3tc="res://.godot/imported/concrete5_diffuse.png-84695481351340403e6d6aaf0e195e36.s3tc.stex"
+path.etc2="res://.godot/imported/concrete5_diffuse.png-84695481351340403e6d6aaf0e195e36.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://reflection/agf81/concrete5_diffuse.png"
-dest_files=[ "res://.import/concrete5_diffuse.png-84695481351340403e6d6aaf0e195e36.s3tc.stex", "res://.import/concrete5_diffuse.png-84695481351340403e6d6aaf0e195e36.etc2.stex" ]
+dest_files=[ "res://.godot/imported/concrete5_diffuse.png-84695481351340403e6d6aaf0e195e36.s3tc.stex", "res://.godot/imported/concrete5_diffuse.png-84695481351340403e6d6aaf0e195e36.etc2.stex" ]
 
 [params]
 

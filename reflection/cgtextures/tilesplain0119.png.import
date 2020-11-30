@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/tilesplain0119.png-ab38ea47f77b8356db78a54de6f5dbab.s3tc.stex"
-path.etc2="res://.import/tilesplain0119.png-ab38ea47f77b8356db78a54de6f5dbab.etc2.stex"
+path.s3tc="res://.godot/imported/tilesplain0119.png-ab38ea47f77b8356db78a54de6f5dbab.s3tc.stex"
+path.etc2="res://.godot/imported/tilesplain0119.png-ab38ea47f77b8356db78a54de6f5dbab.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://reflection/cgtextures/tilesplain0119.png"
-dest_files=[ "res://.import/tilesplain0119.png-ab38ea47f77b8356db78a54de6f5dbab.s3tc.stex", "res://.import/tilesplain0119.png-ab38ea47f77b8356db78a54de6f5dbab.etc2.stex" ]
+dest_files=[ "res://.godot/imported/tilesplain0119.png-ab38ea47f77b8356db78a54de6f5dbab.s3tc.stex", "res://.godot/imported/tilesplain0119.png-ab38ea47f77b8356db78a54de6f5dbab.etc2.stex" ]
 
 [params]
 

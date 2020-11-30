@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/light01.png-7b81505dece78d30ddaca2e6926cf63c.s3tc.stex"
-path.etc2="res://.import/light01.png-7b81505dece78d30ddaca2e6926cf63c.etc2.stex"
+path.s3tc="res://.godot/imported/light01.png-7b81505dece78d30ddaca2e6926cf63c.s3tc.stex"
+path.etc2="res://.godot/imported/light01.png-7b81505dece78d30ddaca2e6926cf63c.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://reflection/nieb/complex/light01.png"
-dest_files=[ "res://.import/light01.png-7b81505dece78d30ddaca2e6926cf63c.s3tc.stex", "res://.import/light01.png-7b81505dece78d30ddaca2e6926cf63c.etc2.stex" ]
+dest_files=[ "res://.godot/imported/light01.png-7b81505dece78d30ddaca2e6926cf63c.s3tc.stex", "res://.godot/imported/light01.png-7b81505dece78d30ddaca2e6926cf63c.etc2.stex" ]
 
 [params]
 

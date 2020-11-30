@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/buildingshighrise0290.png-1eda4a40d47a50560a19d41980f1085e.s3tc.stex"
-path.etc2="res://.import/buildingshighrise0290.png-1eda4a40d47a50560a19d41980f1085e.etc2.stex"
+path.s3tc="res://.godot/imported/buildingshighrise0290.png-1eda4a40d47a50560a19d41980f1085e.s3tc.stex"
+path.etc2="res://.godot/imported/buildingshighrise0290.png-1eda4a40d47a50560a19d41980f1085e.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://reflection/cgtextures/buildingshighrise0290.png"
-dest_files=[ "res://.import/buildingshighrise0290.png-1eda4a40d47a50560a19d41980f1085e.s3tc.stex", "res://.import/buildingshighrise0290.png-1eda4a40d47a50560a19d41980f1085e.etc2.stex" ]
+dest_files=[ "res://.godot/imported/buildingshighrise0290.png-1eda4a40d47a50560a19d41980f1085e.s3tc.stex", "res://.godot/imported/buildingshighrise0290.png-1eda4a40d47a50560a19d41980f1085e.etc2.stex" ]
 
 [params]
 
