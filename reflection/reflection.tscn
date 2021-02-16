@@ -10,7 +10,6 @@ background_color = Color( 0.784314, 0.839216, 0.792157, 1 )
 tonemap_mode = 2
 tonemap_white = 6.0
 ssao_enabled = true
-sdfgi_use_multi_bounce = true
 sdfgi_use_occlusion = true
 sdfgi_cascades = 0
 sdfgi_min_cell_size = 0.41

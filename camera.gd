@@ -50,7 +50,7 @@ func _input(event: InputEvent) -> void:
 func _process(delta: float) -> void:
 	if Input.is_action_pressed("ui_cancel"):
 		get_tree().quit()
-	rotation = lerp(rotation, rotation_dest, 0.1)
+	rotation = rotation.lerp(rotation_dest, 0.1)
 
 	motion.x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
 	motion.y = Input.get_action_strength("move_up") - Input.get_action_strength("move_down")

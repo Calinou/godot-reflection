@@ -1,6 +1,7 @@
 [remap]
 
 importer="scene"
+importer_version=1
 type="PackedScene"
 path="res://.godot/imported/reflection.glb-7567b95765798ba2c1161e648adcc97b.scn"
 
@@ -19,9 +20,10 @@ nodes/storage=0
 materials/location=1
 materials/storage=2
 materials/keep_on_reimport=true
-meshes/compress=true
 meshes/ensure_tangents=true
 meshes/storage=0
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
 meshes/light_baking=1
 meshes/lightmap_texel_size=0.1
 skins/use_named_skins=true
