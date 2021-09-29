@@ -2,17 +2,18 @@
 
 importer="texture"
 type="StreamTexture2D"
+uid="uid://bsr0uyaxk55w6"
 path.s3tc="res://.godot/imported/tile02n.png-44eff3b5ee64c7938708b02a88e0ec3d.s3tc.stex"
 path.etc2="res://.godot/imported/tile02n.png-44eff3b5ee64c7938708b02a88e0ec3d.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
+"imported_formats": ["s3tc", "etc2"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://reflection/nieb/complex/tile02n.png"
-dest_files=[ "res://.godot/imported/tile02n.png-44eff3b5ee64c7938708b02a88e0ec3d.s3tc.stex", "res://.godot/imported/tile02n.png-44eff3b5ee64c7938708b02a88e0ec3d.etc2.stex" ]
+dest_files=["res://.godot/imported/tile02n.png-44eff3b5ee64c7938708b02a88e0ec3d.s3tc.stex", "res://.godot/imported/tile02n.png-44eff3b5ee64c7938708b02a88e0ec3d.etc2.stex"]
 
 [params]
 
@@ -29,7 +30,7 @@ roughness/mode=1
 roughness/src_normal="res://reflection/nieb/complex/tile02n.png"
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/invert_color=false
+process/normal_map_invert_y=false
 process/HDR_as_SRGB=false
 process/size_limit=0
 detect_3d/compress_to=0

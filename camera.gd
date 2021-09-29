@@ -34,7 +34,7 @@ func _input(event: InputEvent) -> void:
 		# Vertical mouse look, clamped to -90..90 degrees
 		rotation_dest.x = clamp(rotation_dest.x - event.relative.y * MOUSE_SENSITIVITY, deg2rad(-90), deg2rad(90))
 
-	if event is InputEventMouseButton and event.button_index == BUTTON_LEFT:
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
 		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 	if event.is_action_pressed("toggle_mouse_capture"):
@@ -72,8 +72,7 @@ func _process(delta: float) -> void:
 	# Add motion, apply friction and velocity
 	velocity += motion * move_speed
 	velocity *= 0.98
-	translation += velocity * delta
-
+	position += velocity * delta
 
 func _exit_tree() -> void:
 	# Restore the mouse cursor upon quitting

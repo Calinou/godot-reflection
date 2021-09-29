@@ -2,6 +2,7 @@
 
 importer="texture"
 type="StreamTexture2D"
+uid="uid://cnh4b86db306j"
 path="res://.godot/imported/snw_combat_01.png-b843074dbdddba311cfdb72b3b0a85c0.stex"
 metadata={
 "vram_texture": false
@@ -10,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://decals/snw_combat_01.png"
-dest_files=[ "res://.godot/imported/snw_combat_01.png-b843074dbdddba311cfdb72b3b0a85c0.stex" ]
+dest_files=["res://.godot/imported/snw_combat_01.png-b843074dbdddba311cfdb72b3b0a85c0.stex"]
 
 [params]
 
@@ -27,7 +28,7 @@ roughness/mode=0
 roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/invert_color=false
+process/normal_map_invert_y=false
 process/HDR_as_SRGB=false
 process/size_limit=0
 detect_3d/compress_to=1
