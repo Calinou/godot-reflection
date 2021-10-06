@@ -1,8 +1,9 @@
 [remap]
 
 importer="texture"
-type="StreamTexture2D"
-path="res://.godot/imported/snw_suitad.png-518e67fbdf4e6ca3c9cc17461cd9c791.stex"
+type="CompressedTexture2D"
+uid="uid://dpvvetx5ji1pr"
+path="res://.godot/imported/snw_suitad.png-518e67fbdf4e6ca3c9cc17461cd9c791.ctex"
 metadata={
 "vram_texture": false
 }
@@ -10,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://decals/snw_suitad.png"
-dest_files=[ "res://.godot/imported/snw_suitad.png-518e67fbdf4e6ca3c9cc17461cd9c791.stex" ]
+dest_files=["res://.godot/imported/snw_suitad.png-518e67fbdf4e6ca3c9cc17461cd9c791.ctex"]
 
 [params]
 
@@ -20,15 +21,14 @@ compress/hdr_compression=1
 compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
-compress/streamed=false
 mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/invert_color=false
-process/HDR_as_SRGB=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0

@@ -1,351 +1,300 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=23 format=3 uid="uid://cfhbnwi4cnnwq"]
 
-[ext_resource path="res://camera.gd" type="Script" id=2]
-[ext_resource path="res://reflection/reflection.GIProbe_data.res" type="GIProbeData" id=3]
-[ext_resource path="res://reflection/models/reflection.glb" type="PackedScene" id=4]
+[ext_resource type="Script" path="res://camera.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://b74rbr16tc16v" path="res://reflection/models/reflection.glb" id="4"]
 
-[sub_resource type="Environment" id=1]
+[sub_resource type="Environment" id="1"]
 background_mode = 1
-background_color = Color( 0.784314, 0.839216, 0.792157, 1 )
+background_color = Color(0.752941, 0.843137, 0.941176, 1)
 tonemap_mode = 2
-tonemap_white = 6.0
+tonemap_white = 12.69
 ssao_enabled = true
+sdfgi_enabled = true
 sdfgi_use_occlusion = true
-sdfgi_cascades = 0
 sdfgi_min_cell_size = 0.41
 sdfgi_cascade0_distance = 26.24
 sdfgi_max_distance = 419.84
-sdfgi_energy = 2.306
+sdfgi_energy = 2.3
+fog_light_color = Color(0.682353, 0.701961, 0.541176, 1)
 volumetric_fog_enabled = true
-volumetric_fog_density = 0.0018
+volumetric_fog_density = 0.051
 volumetric_fog_gi_inject = 0.69
+volumetric_fog_ambient_inject = 1.18
 
-[sub_resource type="StandardMaterial3D" id=2]
+[sub_resource type="CameraEffects" id="CameraEffects_6j37d"]
+dof_blur_far_distance = 15.0
+dof_blur_near_distance = 3.0
+dof_blur_amount = 0.02
+
+[sub_resource type="StandardMaterial3D" id="2"]
 transparency = 1
-albedo_color = Color( 1, 1, 1, 0.5 )
+albedo_color = Color(1, 1, 1, 0.5)
 metallic = 1.0
 roughness = 0.0
 normal_enabled = true
 normal_scale = 0.15
 
-[sub_resource type="BoxMesh" id=3]
-material = SubResource( 2 )
-size = Vector3( 0.1, 3, 4.25 )
+[sub_resource type="BoxMesh" id="3"]
+material = SubResource( "2" )
+size = Vector3(0.1, 3, 4.25)
 
-[sub_resource type="BoxMesh" id=4]
-material = SubResource( 2 )
-size = Vector3( 0.1, 3.15, 9.4 )
+[sub_resource type="BoxMesh" id="4"]
+material = SubResource( "2" )
+size = Vector3(0.1, 3.15, 9.4)
 
-[sub_resource type="StreamTexture2D" id=5]
-load_path = "res://.godot/imported/snowylogo01_d.png-78e13556a8948c555ec75b178e421f7c.stex"
+[sub_resource type="CompressedTexture2D" id="5"]
 
-[sub_resource type="StreamTexture2D" id=6]
-load_path = "res://.godot/imported/snw_suitad.png-518e67fbdf4e6ca3c9cc17461cd9c791.stex"
+[sub_resource type="CompressedTexture2D" id="6"]
 
-[sub_resource type="StreamTexture2D" id=7]
-load_path = "res://.godot/imported/snw_combat_01.png-b843074dbdddba311cfdb72b3b0a85c0.stex"
+[sub_resource type="CompressedTexture2D" id="7"]
 
-[sub_resource type="StreamTexture2D" id=8]
-load_path = "res://.godot/imported/snw_combat_01.png-b843074dbdddba311cfdb72b3b0a85c0.stex"
+[sub_resource type="CompressedTexture2D" id="8"]
 
-[sub_resource type="StreamTexture2D" id=9]
-load_path = "res://.godot/imported/snw_suitad.png-518e67fbdf4e6ca3c9cc17461cd9c791.stex"
+[sub_resource type="CompressedTexture2D" id="9"]
 
-[sub_resource type="StreamTexture2D" id=10]
-load_path = "res://.godot/imported/snw_combat_01.png-b843074dbdddba311cfdb72b3b0a85c0.stex"
+[sub_resource type="CompressedTexture2D" id="10"]
 
-[sub_resource type="StreamTexture2D" id=11]
-load_path = "res://.godot/imported/snw_security_2.png-b8ca75b12faae97050348dcb02ad7c6b.stex"
+[sub_resource type="CompressedTexture2D" id="11"]
 
-[sub_resource type="StreamTexture2D" id=12]
-load_path = "res://.godot/imported/snw_fairad.png-432fd1c402dbd77ba0553bc5592a8554.stex"
+[sub_resource type="CompressedTexture2D" id="12"]
 
-[sub_resource type="StreamTexture2D" id=13]
-load_path = "res://.godot/imported/snw_planet_01.png-d95b364dc0714a5337c573870a7c753d.stex"
+[sub_resource type="CompressedTexture2D" id="13"]
 
-[sub_resource type="StreamTexture2D" id=14]
-load_path = "res://.godot/imported/snw_planet_01.png-d95b364dc0714a5337c573870a7c753d.stex"
+[sub_resource type="CompressedTexture2D" id="14"]
 
-[sub_resource type="StreamTexture2D" id=15]
-load_path = "res://.godot/imported/snw_fairad.png-432fd1c402dbd77ba0553bc5592a8554.stex"
+[sub_resource type="CompressedTexture2D" id="15"]
 
-[sub_resource type="StreamTexture2D" id=16]
-load_path = "res://.godot/imported/snw_planet_01.png-d95b364dc0714a5337c573870a7c753d.stex"
+[sub_resource type="CompressedTexture2D" id="16"]
 
-[sub_resource type="StreamTexture2D" id=17]
-load_path = "res://.godot/imported/snw_fairad.png-432fd1c402dbd77ba0553bc5592a8554.stex"
+[sub_resource type="CompressedTexture2D" id="17"]
 
-[sub_resource type="StreamTexture2D" id=18]
-load_path = "res://.godot/imported/snw_security_1.png-2c007aa63fe1514306da25ba0087aead.stex"
+[sub_resource type="CompressedTexture2D" id="18"]
 
-[sub_resource type="StreamTexture2D" id=19]
-load_path = "res://.godot/imported/snw_security_1.png-2c007aa63fe1514306da25ba0087aead.stex"
+[sub_resource type="CompressedTexture2D" id="19"]
 
 [node name="Reflection" type="Node3D"]
-script = null
 
-[node name="ReflectionModel" parent="." instance=ExtResource( 4 )]
+[node name="ReflectionModel" parent="." instance=ExtResource( "4" )]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform( 0.952193, 0.103041, 0.287594, -0.305496, 0.321167, 0.896395, 0, -0.9414, 0.337292, 0, 0, 0 )
-light_color = Color( 0.870588, 0.992157, 0.980392, 1 )
+transform = Transform3D(0.952193, 0.103041, 0.287594, -0.305496, 0.321167, 0.896395, 0, -0.9414, 0.337292, 0, 0, 0)
+light_color = Color(0.870588, 0.992157, 0.980392, 1)
 light_energy = 3.5
 light_indirect_energy = 5.0
-light_bake_mode = 2
 shadow_enabled = true
 shadow_bias = 0.007
 shadow_blur = 1.5
 directional_shadow_blend_splits = true
 directional_shadow_max_distance = 80.0
-script = null
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource( 1 )
-script = null
-
-[node name="GIProbe" type="GIProbe" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13, 0 )
-subdiv = 2
-extents = Vector3( 50, 17.5, 50 )
-data = ExtResource( 3 )
-script = null
+environment = SubResource( "1" )
+camera_effects = SubResource( "CameraEffects_6j37d" )
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15, 8 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15, 8)
 near = 0.1
 far = 200.0
-script = ExtResource( 2 )
+script = ExtResource( "2" )
 
 [node name="GlassPanes" type="Node3D" parent="."]
-script = null
 
 [node name="SkurVertical" type="MeshInstance3D" parent="GlassPanes"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30.161, 17.1813, -2.50535 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.161, 17.1813, -2.50535)
 cast_shadow = 0
 gi_mode = 1
-mesh = SubResource( 3 )
-material/0 = null
-script = null
+mesh = SubResource( "3" )
 
 [node name="SkurHorizontal" type="MeshInstance3D" parent="GlassPanes"]
-transform = Transform( -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, -16.8898, 9.82557, -3.76627 )
+transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, -16.8898, 9.82557, -3.76627)
 cast_shadow = 0
 gi_mode = 1
-mesh = SubResource( 4 )
-material/0 = null
-script = null
+mesh = SubResource( "4" )
 
 [node name="Decals" type="Node3D" parent="."]
-script = null
 
 [node name="Neutral" type="Node3D" parent="Decals"]
-script = null
 
 [node name="SnowyTop1" type="Decal" parent="Decals/Neutral"]
-transform = Transform( -0.984808, -3.23366e-07, 0.173648, -0.173648, -2.82909e-08, -0.984808, 3.23366e-07, -1, -2.82909e-08, 16.2596, 21.3923, 24.3223 )
-extents = Vector3( 0.2, 0.1, 0.2 )
-texture_albedo = SubResource( 5 )
+transform = Transform3D(-0.984808, -3.23366e-07, 0.173648, -0.173648, -2.82909e-08, -0.984808, 3.23366e-07, -1, -2.82909e-08, 16.2596, 21.3923, 24.3223)
+extents = Vector3(0.2, 0.1, 0.2)
+texture_albedo = SubResource( "5" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="SnowyTop2" type="Decal" parent="Decals/Neutral"]
-transform = Transform( 0.984808, -7.5904e-09, -0.173648, -0.173648, -4.30473e-08, -0.984808, 0, 1, -4.37114e-08, -16.2846, 21.4122, -24.3036 )
-extents = Vector3( 0.2, 0.1, 0.2 )
-texture_albedo = SubResource( 5 )
+transform = Transform3D(0.984808, -7.5904e-09, -0.173648, -0.173648, -4.30473e-08, -0.984808, 0, 1, -4.37114e-08, -16.2846, 21.4122, -24.3036)
+extents = Vector3(0.2, 0.1, 0.2)
+texture_albedo = SubResource( "5" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="SnowyVent1" type="Decal" parent="Decals/Neutral"]
-transform = Transform( -0.984808, -7.59041e-09, 0.173648, -0.173648, 4.30473e-08, -0.984808, 0, -1, -4.37114e-08, -0.851167, 26.0872, 19.9217 )
-extents = Vector3( 0.2, 0.1, 0.2 )
-texture_albedo = SubResource( 5 )
+transform = Transform3D(-0.984808, -7.59041e-09, 0.173648, -0.173648, 4.30473e-08, -0.984808, 0, -1, -4.37114e-08, -0.851167, 26.0872, 19.9217)
+extents = Vector3(0.2, 0.1, 0.2)
+texture_albedo = SubResource( "5" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="SnowyVent2" type="Decal" parent="Decals/Neutral"]
-transform = Transform( 0.984808, -7.5904e-09, -0.173648, -0.173648, -4.30473e-08, -0.984808, 0, 1, -4.37114e-08, 0.849822, 26.0917, -19.9809 )
-extents = Vector3( 0.2, 0.1, 0.2 )
-texture_albedo = SubResource( 5 )
+transform = Transform3D(0.984808, -7.5904e-09, -0.173648, -0.173648, -4.30473e-08, -0.984808, 0, 1, -4.37114e-08, 0.849822, 26.0917, -19.9809)
+extents = Vector3(0.2, 0.1, 0.2)
+texture_albedo = SubResource( "5" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="Skur" type="Node3D" parent="Decals"]
-script = null
 
 [node name="DressLarge" type="Decal" parent="Decals/Skur"]
-transform = Transform( -4.37114e-08, -1, 0, -4.37114e-08, 1.91069e-15, -1, 1, -4.37114e-08, -4.37114e-08, -22.6833, 20.3, -12.5 )
-extents = Vector3( 1.25, 0.1, 1.87 )
-texture_albedo = SubResource( 6 )
+transform = Transform3D(-4.37114e-08, -1, 0, -4.37114e-08, 1.91069e-15, -1, 1, -4.37114e-08, -4.37114e-08, -22.6833, 20.3, -12.5)
+extents = Vector3(1.25, 0.1, 1.87)
+texture_albedo = SubResource( "6" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="CombatLarge" type="Decal" parent="Decals/Skur"]
-transform = Transform( -4.37114e-08, 1, 3.82137e-15, -4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, 4.37114e-08, -17.428, 20.3, -12.5 )
-extents = Vector3( 1.25, 0.1, 1.87 )
-texture_albedo = SubResource( 7 )
+transform = Transform3D(-4.37114e-08, 1, 3.82137e-15, -4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, 4.37114e-08, -17.428, 20.3, -12.5)
+extents = Vector3(1.25, 0.1, 1.87)
+texture_albedo = SubResource( "7" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="DressSmall" type="Decal" parent="Decals/Skur"]
-transform = Transform( -1, 8.74228e-08, 4.37114e-08, -4.37114e-08, 1.91069e-15, -1, -8.74228e-08, -1, 1.91069e-15, -22.498, 16.2523, 3.23425 )
-extents = Vector3( 0.62, 0.1, 0.935 )
-texture_albedo = SubResource( 6 )
+transform = Transform3D(-1, 8.74228e-08, 4.37114e-08, -4.37114e-08, 1.91069e-15, -1, -8.74228e-08, -1, 1.91069e-15, -22.498, 16.2523, 3.23425)
+extents = Vector3(0.62, 0.1, 0.935)
+texture_albedo = SubResource( "6" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="CombatSmall" type="Decal" parent="Decals/Skur"]
-transform = Transform( -1, 8.74228e-08, 4.37114e-08, -4.37114e-08, 1.91069e-15, -1, -8.74228e-08, -1, 1.91069e-15, -27.1867, 16.2523, 3.2231 )
-extents = Vector3( 0.62, 0.1, 0.935 )
-texture_albedo = SubResource( 8 )
+transform = Transform3D(-1, 8.74228e-08, 4.37114e-08, -4.37114e-08, 1.91069e-15, -1, -8.74228e-08, -1, 1.91069e-15, -27.1867, 16.2523, 3.2231)
+extents = Vector3(0.62, 0.1, 0.935)
+texture_albedo = SubResource( "8" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="DressSmallBack" type="Decal" parent="Decals/Skur"]
-transform = Transform( 1, -2.13163e-14, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 2.13163e-14, 1, 1.91068e-15, -27.1867, 16.2523, 3.62674 )
-extents = Vector3( 0.62, 0.1, 0.935 )
-texture_albedo = SubResource( 9 )
+transform = Transform3D(1, -2.13163e-14, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 2.13163e-14, 1, 1.91068e-15, -27.1867, 16.2523, 3.62674)
+extents = Vector3(0.62, 0.1, 0.935)
+texture_albedo = SubResource( "9" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="CombatSmallBack" type="Decal" parent="Decals/Skur"]
-transform = Transform( 1, -2.13163e-14, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 2.13163e-14, 1, 1.91068e-15, -22.498, 16.2523, 3.66282 )
-extents = Vector3( 0.62, 0.1, 0.935 )
-texture_albedo = SubResource( 10 )
+transform = Transform3D(1, -2.13163e-14, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 2.13163e-14, 1, 1.91068e-15, -22.498, 16.2523, 3.66282)
+extents = Vector3(0.62, 0.1, 0.935)
+texture_albedo = SubResource( "10" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="TopSekLarge" type="Decal" parent="Decals/Skur"]
-transform = Transform( -1, 0.000698212, 1.05252e-07, -1.05165e-07, 1.24433e-07, -1, -0.000698222, -1, -1.24359e-07, -10.6301, 12.2159, 21.2756 )
-extents = Vector3( 0.6, 0.1, 0.9 )
-texture_albedo = SubResource( 11 )
+transform = Transform3D(-1, 0.000698212, 1.05252e-07, -1.05165e-07, 1.24433e-07, -1, -0.000698222, -1, -1.24359e-07, -10.6301, 12.2159, 21.2756)
+extents = Vector3(0.6, 0.1, 0.9)
+texture_albedo = SubResource( "11" )
 normal_fade = 0.99
 upper_fade = 1e-05
 lower_fade = 1e-05
-script = null
 
 [node name="TopSekSmall" type="Decal" parent="Decals/Skur"]
-transform = Transform( -4.37114e-08, -1, 0, -4.37114e-08, 1.91069e-15, -1, 1, -4.37114e-08, -4.37114e-08, -21.2718, 18.1474, 16.5835 )
-extents = Vector3( 0.4, 0.1, 0.6 )
-texture_albedo = SubResource( 11 )
+transform = Transform3D(-4.37114e-08, -1, 0, -4.37114e-08, 1.91069e-15, -1, 1, -4.37114e-08, -4.37114e-08, -21.2718, 18.1474, 16.5835)
+extents = Vector3(0.4, 0.1, 0.6)
+texture_albedo = SubResource( "11" )
 normal_fade = 0.99
 upper_fade = 1e-05
 lower_fade = 1e-05
-script = null
 
 [node name="Snowy" type="Node3D" parent="Decals"]
-script = null
 
 [node name="FairmadeLarge" type="Decal" parent="Decals/Snowy"]
-transform = Transform( -4.37114e-08, 1, 3.82137e-15, -4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, 4.37114e-08, 22.6167, 20.3, 12.5 )
-extents = Vector3( 1.25, 0.1, 1.87 )
-texture_albedo = SubResource( 12 )
+transform = Transform3D(-4.37114e-08, 1, 3.82137e-15, -4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, 4.37114e-08, 22.6167, 20.3, 12.5)
+extents = Vector3(1.25, 0.1, 1.87)
+texture_albedo = SubResource( "12" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="PlanetLarge" type="Decal" parent="Decals/Snowy"]
-transform = Transform( 1.31134e-07, -1, -7.64274e-15, -4.37114e-08, 1.91069e-15, -1, 1, 1.31134e-07, -4.37114e-08, 17.372, 20.3, 12.5 )
-extents = Vector3( 1.25, 0.1, 1.87 )
-texture_albedo = SubResource( 13 )
+transform = Transform3D(1.31134e-07, -1, -7.64274e-15, -4.37114e-08, 1.91069e-15, -1, 1, 1.31134e-07, -4.37114e-08, 17.372, 20.3, 12.5)
+extents = Vector3(1.25, 0.1, 1.87)
+texture_albedo = SubResource( "13" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="PlanetSmall" type="Decal" parent="Decals/Snowy"]
-transform = Transform( 1, -2.13163e-14, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 2.13163e-14, 1, 1.91068e-15, 22.502, 16.2523, -3.06575 )
-extents = Vector3( 0.62, 0.1, 0.935 )
-texture_albedo = SubResource( 14 )
+transform = Transform3D(1, -2.13163e-14, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 2.13163e-14, 1, 1.91068e-15, 22.502, 16.2523, -3.06575)
+extents = Vector3(0.62, 0.1, 0.935)
+texture_albedo = SubResource( "14" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="ClothingSmall" type="Decal" parent="Decals/Snowy"]
-transform = Transform( 1, -2.13163e-14, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 2.13163e-14, 1, 1.91068e-15, 27.1855, 16.2523, -3.06575 )
-extents = Vector3( 0.62, 0.1, 0.935 )
-texture_albedo = SubResource( 15 )
+transform = Transform3D(1, -2.13163e-14, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 2.13163e-14, 1, 1.91068e-15, 27.1855, 16.2523, -3.06575)
+extents = Vector3(0.62, 0.1, 0.935)
+texture_albedo = SubResource( "15" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="PlanetSmallBack" type="Decal" parent="Decals/Snowy"]
-transform = Transform( -1, -8.74228e-08, 4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 8.74228e-08, -1, -5.73205e-15, 27.1855, 16.2523, -3.66575 )
-extents = Vector3( 0.62, 0.1, 0.935 )
-texture_albedo = SubResource( 16 )
+transform = Transform3D(-1, -8.74228e-08, 4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 8.74228e-08, -1, -5.73205e-15, 27.1855, 16.2523, -3.66575)
+extents = Vector3(0.62, 0.1, 0.935)
+texture_albedo = SubResource( "16" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="ClothingSmallBack" type="Decal" parent="Decals/Snowy"]
-transform = Transform( -1, -8.74228e-08, 4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 8.74228e-08, -1, -5.73205e-15, 22.4937, 16.2523, -3.66575 )
-extents = Vector3( 0.62, 0.1, 0.935 )
-texture_albedo = SubResource( 17 )
+transform = Transform3D(-1, -8.74228e-08, 4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 8.74228e-08, -1, -5.73205e-15, 22.4937, 16.2523, -3.66575)
+extents = Vector3(0.62, 0.1, 0.935)
+texture_albedo = SubResource( "17" )
 normal_fade = 0.99
 upper_fade = 1.03526e-05
 lower_fade = 0.0
-script = null
 
 [node name="IcupLarge" type="Decal" parent="Decals/Snowy"]
-transform = Transform( 1, -0.000698125, -1.05252e-07, -1.05165e-07, 1.24433e-07, -1, 0.000698135, 1, 1.24359e-07, 11.3699, 12.2159, -21.3244 )
-extents = Vector3( 0.6, 0.1, 0.9 )
-texture_albedo = SubResource( 18 )
+transform = Transform3D(1, -0.000698125, -1.05252e-07, -1.05165e-07, 1.24433e-07, -1, 0.000698135, 1, 1.24359e-07, 11.3699, 12.2159, -21.3244)
+extents = Vector3(0.6, 0.1, 0.9)
+texture_albedo = SubResource( "18" )
 normal_fade = 0.99
 upper_fade = 1e-05
 lower_fade = 1e-05
-script = null
 
 [node name="IcupSmall" type="Decal" parent="Decals/Snowy"]
-transform = Transform( -4.37114e-08, 1, 3.82137e-15, -4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, 4.37114e-08, 21.2282, 18.1474, -16.4165 )
-extents = Vector3( 0.4, 0.1, 0.6 )
-texture_albedo = SubResource( 19 )
+transform = Transform3D(-4.37114e-08, 1, 3.82137e-15, -4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, 4.37114e-08, 21.2282, 18.1474, -16.4165)
+extents = Vector3(0.4, 0.1, 0.6)
+texture_albedo = SubResource( "19" )
 normal_fade = 0.99
 upper_fade = 1e-05
 lower_fade = 1e-05
-script = null
 
 [node name="PointLights" type="Node3D" parent="."]
-script = null
 
 [node name="SkurVentOmniLight" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.1561, 19.5, 19.7887 )
-light_bake_mode = 2
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.1561, 19.5, 19.7887)
 shadow_enabled = true
 shadow_bias = 0.05
 shadow_blur = 1.5
 omni_range = 6.0
 omni_attenuation = 0.5
-script = null
 
 [node name="SnowyVentOmniLight" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.2903, 19.5, -19.8062 )
-light_bake_mode = 2
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.2903, 19.5, -19.8062)
 shadow_enabled = true
 shadow_bias = 0.05
 shadow_blur = 1.5
 omni_range = 6.0
 omni_attenuation = 0.5
-script = null
+
+[editable path="ReflectionModel"]

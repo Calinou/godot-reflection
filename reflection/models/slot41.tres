@@ -1,7 +1,7 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=2]
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bsf6nc4gi0iq3"]
 
-[ext_resource path="res://reflection/agf81/concrete4_diffuse.png" type="Texture2D" id=1]
+[ext_resource type="Texture2D" uid="uid://bj4sbm2r7o60i" path="res://reflection/agf81/concrete4_diffuse.png" id="1"]
 
 [resource]
 resource_name = "slot41"
-albedo_texture = ExtResource( 1 )
+albedo_texture = ExtResource( "1" )

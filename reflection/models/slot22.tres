@@ -1,13 +1,13 @@
-[gd_resource type="StandardMaterial3D" load_steps=3 format=2]
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://uxug0xvbmokh"]
 
-[ext_resource path="res://reflection/nieb/complex/tile02.png" type="Texture2D" id=1]
-[ext_resource path="res://reflection/nieb/complex/tile02n.png" type="Texture2D" id=2]
+[ext_resource type="Texture2D" uid="uid://b5fqxav1u4v1q" path="res://reflection/nieb/complex/tile02.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bk1wunk2gok5d" path="res://reflection/nieb/complex/tile02n.png" id="2"]
 
 [resource]
 resource_name = "slot22"
-albedo_texture = ExtResource( 1 )
+albedo_texture = ExtResource( "1" )
 metallic = 1.0
 roughness = 0.01
 normal_enabled = true
 normal_scale = 0.18
-normal_texture = ExtResource( 2 )
+normal_texture = ExtResource( "2" )

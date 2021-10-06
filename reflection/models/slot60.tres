@@ -1,7 +1,7 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=2]
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cjb2e2833evj8"]
 
-[ext_resource path="res://reflection/cgtextures/tilesplain0119.png" type="Texture2D" id=1]
+[ext_resource type="Texture2D" uid="uid://pt3e5eimmcfv" path="res://reflection/cgtextures/tilesplain0119.png" id="1"]
 
 [resource]
 resource_name = "slot60"
-albedo_texture = ExtResource( 1 )
+albedo_texture = ExtResource( "1" )

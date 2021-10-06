@@ -1,13 +1,6 @@
-[gd_resource type="Environment" load_steps=3 format=2]
-
-[sub_resource type="ProceduralSkyMaterial" id=1]
-
-[sub_resource type="Sky" id=2]
-sky_material = SubResource( 1 )
+[gd_resource type="Environment" format=3 uid="uid://cnkne3d5omiht"]
 
 [resource]
-background_mode = 2
-sky = SubResource( 2 )
 tonemap_mode = 2
 tonemap_white = 6.0
 ssao_enabled = true
