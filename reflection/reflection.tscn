@@ -11,15 +11,19 @@ tonemap_white = 12.69
 ssao_enabled = true
 sdfgi_enabled = true
 sdfgi_use_occlusion = true
-sdfgi_min_cell_size = 0.41
-sdfgi_cascade0_distance = 26.24
-sdfgi_max_distance = 419.84
+sdfgi_bounce_feedback = 1.0
 sdfgi_energy = 2.3
+glow_enabled = true
+glow_levels/1 = 1.0
+glow_levels/2 = 0.8
+glow_levels/3 = 0.4
+glow_levels/4 = 0.1
+glow_intensity = 0.2
+glow_blend_mode = 1
 fog_light_color = Color(0.682353, 0.701961, 0.541176, 1)
 volumetric_fog_enabled = true
-volumetric_fog_density = 0.051
-volumetric_fog_gi_inject = 0.69
-volumetric_fog_ambient_inject = 1.18
+volumetric_fog_density = 0.04
+volumetric_fog_gi_inject = 1.0
 
 [sub_resource type="CameraEffects" id="CameraEffects_6j37d"]
 dof_blur_far_distance = 15.0
@@ -82,10 +86,11 @@ light_color = Color(0.870588, 0.992157, 0.980392, 1)
 light_energy = 3.5
 light_indirect_energy = 5.0
 shadow_enabled = true
-shadow_bias = 0.007
-shadow_blur = 1.5
+shadow_normal_bias = 2.0
+directional_shadow_mode = 0
 directional_shadow_blend_splits = true
-directional_shadow_max_distance = 80.0
+directional_shadow_fade_start = 1.0
+directional_shadow_max_distance = 60.0
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( "1" )
