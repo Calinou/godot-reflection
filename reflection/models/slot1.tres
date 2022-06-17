@@ -1,7 +1,7 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=2]
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bovppcs4mvthv"]
 
-[ext_resource path="res://reflection/base/base1.png" type="Texture2D" id=1]
+[ext_resource type="Texture2D" uid="uid://doviawnax1sc2" path="res://reflection/base/base1.png" id="1"]
 
 [resource]
 resource_name = "slot1"
-albedo_texture = ExtResource( 1 )
+albedo_texture = ExtResource( "1" )
