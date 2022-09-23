@@ -32,7 +32,7 @@ func _input(event: InputEvent) -> void:
 		# Horizontal mouse look
 		rotation_dest.y -= event.relative.x * MOUSE_SENSITIVITY
 		# Vertical mouse look, clamped to -90..90 degrees
-		rotation_dest.x = clamp(rotation_dest.x - event.relative.y * MOUSE_SENSITIVITY, deg2rad(-90), deg2rad(90))
+		rotation_dest.x = clamp(rotation_dest.x - event.relative.y * MOUSE_SENSITIVITY, deg_to_rad(-90), deg_to_rad(90))
 
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
 		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
