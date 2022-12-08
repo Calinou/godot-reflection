@@ -3,7 +3,7 @@
 [![Screenshot of Reflection](https://raw.githubusercontent.com/Calinou/media/master/godot-reflection/screenshot-thumb.png)](https://raw.githubusercontent.com/Calinou/media/master/godot-reflection/screenshot.png)
 
 A port of [Tesseract](http://tesseract.gg)'s Reflection map for testing Godot 4.0's new Vulkan renderer.
-Uses SDFGI for global illumination in addition to volumetric fog.
+Uses SDFGI for global illumination in addition to volumetric fog and screen-space indirect lighting.
 
 The OBJ and MTL files were sourced from [game-maps-obj](https://github.com/Calinou/game-maps-obj).
 

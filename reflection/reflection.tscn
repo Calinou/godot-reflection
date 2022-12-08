@@ -16,6 +16,7 @@ background_color = Color(0.752941, 0.843137, 0.941176, 1)
 tonemap_mode = 2
 tonemap_white = 12.69
 ssao_enabled = true
+ssil_enabled = true
 sdfgi_enabled = true
 sdfgi_use_occlusion = true
 sdfgi_bounce_feedback = 1.0
