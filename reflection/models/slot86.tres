@@ -5,8 +5,9 @@
 
 [resource]
 resource_name = "slot86"
-albedo_texture = ExtResource( "1" )
+albedo_texture = ExtResource("1")
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_operator = 1
-emission_texture = ExtResource( "2_gw2of" )
+emission_texture = ExtResource("2_gw2of")
+texture_filter = 5

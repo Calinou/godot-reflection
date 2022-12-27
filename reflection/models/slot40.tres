@@ -2,3 +2,4 @@
 
 [resource]
 resource_name = "slot40"
+texture_filter = 5

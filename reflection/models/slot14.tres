@@ -6,10 +6,11 @@
 [resource]
 resource_name = "slot14"
 albedo_color = Color(0.196078, 0.619608, 0.87451, 1)
-albedo_texture = ExtResource( "1" )
+albedo_texture = ExtResource("1")
 metallic = 0.64
 roughness = 0.35
 emission_enabled = true
 emission = Color(0.196078, 0.619608, 0.87451, 1)
 emission_operator = 1
-emission_texture = ExtResource( "2_qi85c" )
+emission_texture = ExtResource("2_qi85c")
+texture_filter = 5

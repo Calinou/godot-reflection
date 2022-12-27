@@ -6,8 +6,9 @@
 [resource]
 resource_name = "slot84"
 albedo_color = Color(0.164706, 0.219608, 0.282353, 1)
-albedo_texture = ExtResource( "1" )
+albedo_texture = ExtResource("1")
 metallic = 0.54
 roughness = 0.35
 normal_enabled = true
-normal_texture = ExtResource( "2" )
+normal_texture = ExtResource("2")
+texture_filter = 5

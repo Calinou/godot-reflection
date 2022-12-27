@@ -5,4 +5,5 @@
 [resource]
 resource_name = "slot36"
 albedo_color = Color(0.447059, 0.47451, 0.537255, 1)
-albedo_texture = ExtResource( "1" )
+albedo_texture = ExtResource("1")
+texture_filter = 5

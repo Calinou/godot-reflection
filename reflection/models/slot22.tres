@@ -5,9 +5,10 @@
 
 [resource]
 resource_name = "slot22"
-albedo_texture = ExtResource( "1" )
+albedo_texture = ExtResource("1")
 metallic = 1.0
 roughness = 0.01
 normal_enabled = true
 normal_scale = 0.18
-normal_texture = ExtResource( "2" )
+normal_texture = ExtResource("2")
+texture_filter = 5
