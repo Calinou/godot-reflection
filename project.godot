@@ -83,6 +83,7 @@ toggle_mouse_capture={
 
 textures/default_filters/anisotropic_filtering_level=4
 textures/decals/filter=5
+global_illumination/sdfgi/probe_ray_count=2
 anti_aliasing/quality/use_taa=true
 anti_aliasing/quality/use_debanding=true
 environment/default_environment="res://default_env.tres"

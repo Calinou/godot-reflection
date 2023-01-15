@@ -20,6 +20,8 @@ ssil_enabled = true
 sdfgi_enabled = true
 sdfgi_use_occlusion = true
 sdfgi_bounce_feedback = 1.0
+sdfgi_cascades = 3
+sdfgi_min_cell_size = 0.35
 sdfgi_energy = 2.3
 glow_enabled = true
 glow_levels/1 = 1.0
@@ -275,7 +277,7 @@ omni_range = 6.0
 omni_attenuation = 0.5
 
 [node name="Lightfix" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.78459, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.78459, 0)
 mesh = SubResource("PlaneMesh_loc1w")
 
 [editable path="ReflectionModel"]
