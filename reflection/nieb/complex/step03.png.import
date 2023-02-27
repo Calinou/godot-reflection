@@ -4,23 +4,22 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhbcsvo11t13l"
 path.s3tc="res://.godot/imported/step03.png-2417f03263def2417aa30b7eb039ee8b.s3tc.ctex"
-path.etc2="res://.godot/imported/step03.png-2417f03263def2417aa30b7eb039ee8b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
+"imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://reflection/nieb/complex/step03.png"
-dest_files=["res://.godot/imported/step03.png-2417f03263def2417aa30b7eb039ee8b.s3tc.ctex", "res://.godot/imported/step03.png-2417f03263def2417aa30b7eb039ee8b.etc2.ctex"]
+dest_files=["res://.godot/imported/step03.png-2417f03263def2417aa30b7eb039ee8b.s3tc.ctex"]
 
 [params]
 
 compress/mode=2
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true

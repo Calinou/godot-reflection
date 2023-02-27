@@ -2,7 +2,7 @@
 
 [![Screenshot of Reflection](https://raw.githubusercontent.com/Calinou/media/master/godot-reflection/screenshot-thumb.png)](https://raw.githubusercontent.com/Calinou/media/master/godot-reflection/screenshot.png)
 
-A port of [Tesseract](http://tesseract.gg)'s Reflection map for testing Godot 4.0's new Vulkan renderer.
+A port of [Tesseract](http://tesseract.gg)'s Reflection map for testing Godot 4.0's Vulkan renderer.
 Uses SDFGI for global illumination in addition to volumetric fog and screen-space indirect lighting.
 
 The OBJ and MTL files were sourced from [game-maps-obj](https://github.com/Calinou/game-maps-obj).
@@ -24,7 +24,7 @@ You can also
 [download a ZIP archive](https://github.com/Calinou/godot-reflection/archive/master.zip)
 if you don't have Git installed.
 
-**You need a development build of Godot 4.0 to run this demo.**
+**You need Godot 4.0 or later to run this demo.**
 
 Once you have the project files, open the Godot Project Manager, click the
 **Import** button, then select the `project.godot` file of this project.
@@ -33,13 +33,14 @@ by the editor). Exit the editor (go back to the project manager), then run
 the project. This is to make sure the editor does not render the demo in
 the background, which would slow down the running project a lot.
 
-**Note:** If some materials don't show up, try selecting
-`reflection/models/reflection.obj` in the FileSystem dock, go to the Import dock then
-click **Reimport**.
+> **Note**
+>
+> If some materials don't show up, try selecting `reflection/models/reflection.obj`
+> in the FileSystem dock, go to the Import dock then click **Reimport**.
 
 ## License
 
-Copyright © 2020 Hugo Locurcio and contributors
+Copyright © 2020-present Hugo Locurcio and contributors
 
 - Unless otherwise specified, files in this repository are licensed under the
   MIT license, see [LICENSE.md](LICENSE.md) for more information.
