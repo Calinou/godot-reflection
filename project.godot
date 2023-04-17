@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Tesseract Reflection Map"
 run/main_scene="res://reflection/reflection.tscn"
-config/features=PackedStringArray("4.0")
+config/features=PackedStringArray("4.1")
 config/icon="res://icon.png"
 
 [filesystem]
