@@ -22,7 +22,32 @@ var initial_rotation := rotation.y
 var rotation_dest := rotation
 
 func _ready() -> void:
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	if "--fsr1" in OS.get_cmdline_user_args():
+		print_rich("[color=blue]FSR 1[/code] scaling mode")
+		get_viewport().scaling_3d_mode = Viewport.SCALING_3D_MODE_FSR
+	elif "--fsr2" in OS.get_cmdline_user_args():
+		print_rich("[color=cyan]FSR 2[/color] scaling mode")
+		get_viewport().scaling_3d_mode = int(RenderingServer.VIEWPORT_SCALING_3D_MODE_FSR2)
+	else:
+		print_rich("[color=gray]Bilinear[/color] scaling mode")
+
+	if "--quality" in OS.get_cmdline_user_args():
+		print_rich("[color=green]Quality[/color] scaling resolution")
+		get_viewport().scaling_3d_scale = 1.0 / 1.5
+	elif "--balanced" in OS.get_cmdline_user_args():
+		print_rich("[color=yellow]Balanced[/color] scaling resolution")
+		get_viewport().scaling_3d_scale = 1.0 / 1.7
+	elif "--performance" in OS.get_cmdline_user_args():
+		print_rich("[color=red]Performance[/color] scaling resolution")
+		get_viewport().scaling_3d_scale = 1.0 / 2.0
+	elif "--ultra-performance" in OS.get_cmdline_user_args():
+		print_rich("[color=magenta]Ultra Performance[/color] scaling resolution")
+		get_viewport().scaling_3d_scale = 1.0 / 3.0
+	else:
+		print_rich("[color=gray]Native[/code] scaling resolution")
+
+	if not "--spin" in OS.get_cmdline_user_args():
+		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 
 func _input(event: InputEvent) -> void:
@@ -47,6 +72,10 @@ func _input(event: InputEvent) -> void:
 
 
 func _process(delta: float) -> void:
+	if "--spin" in OS.get_cmdline_user_args():
+		set_process_input(false)
+		rotation_dest.y += TAU / 360
+
 	if Input.is_action_pressed("ui_cancel"):
 		get_tree().quit()
 	rotation = rotation.lerp(rotation_dest, 0.1)
