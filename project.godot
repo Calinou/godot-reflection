@@ -15,6 +15,17 @@ run/main_scene="res://reflection/reflection.tscn"
 config/features=PackedStringArray("4.2")
 config/icon="res://icon.png"
 
+[display]
+
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+
+[editor]
+
+movie_writer/mjpeg_quality=1.0
+movie_writer/movie_file="out.avi"
+movie_writer/disable_vsync=true
+
 [filesystem]
 
 import/blender/enabled=false

@@ -75,3 +75,4 @@ func _process(delta: float) -> void:
 func _exit_tree() -> void:
 	# Restore the mouse cursor upon quitting.
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+
