@@ -53,9 +53,10 @@ func _on_animation_player_animation_finished(anim_name: StringName) -> void:
 	var frametime_gpu_1_percent_low := frametimes_gpu[round(frametimes_gpu.size() * 0.99)]
 	var frametime_gpu_01_percent_low := frametimes_gpu[round(frametimes_gpu.size() * 0.999)]
 
-
+	# Print a non-breakable space for the first heading, so that Markdown renders a table correctly
+	# (each heading must be non-empty).
 	print_rich("[color=green]Done running benchmark ([b]%d[/b] frames rendered in [b]%.2f[/b] seconds).\n" % [Engine.get_frames_drawn(), Time.get_ticks_msec() * 0.001])
-	print_rich("          | [b]Average[/b]             | [b]1% low[/b]              | [b]0.1% low[/b]")
+	print_rich("&nbsp;    | [b]Average[/b]             | [b]1% low[/b]              | [b]0.1% low[/b]")
 	print_rich("---------:|---------------------|---------------------|------------------------")
 	print_rich("[b]Frametime[/b] | [color=yellow]%d FPS (%.2f mspf)[/color] | %d FPS (%.2f mspf) | %d FPS (%.2f mspf)" % [1000.0 / frametime_average, frametime_average, 1000.0 / frametime_1_percent_low, frametime_1_percent_low, 1000.0 / frametime_01_percent_low, frametime_01_percent_low])
 	print_rich(" [b]CPU Time[/b] | [color=blue]%d FPS (%.2f mspf)[/color] | %d FPS (%.2f mspf) | %d FPS (%.2f mspf)" % [1000.0 / frametime_cpu_average, frametime_cpu_average, 1000.0 / frametime_cpu_1_percent_low, frametime_cpu_1_percent_low, 1000.0 / frametime_cpu_01_percent_low, frametime_cpu_01_percent_low])
