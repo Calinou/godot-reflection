@@ -1,6 +1,6 @@
 [gd_scene load_steps=32 format=3 uid="uid://cfhbnwi4cnnwq"]
 
-[ext_resource type="Script" path="res://camera.gd" id="2"]
+[ext_resource type="Script" uid="uid://djrd3ry0hirkq" path="res://camera.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://b1l85foeal1fv" path="res://decals/snowylogo01_d.png" id="3_rs8mk"]
 [ext_resource type="PackedScene" uid="uid://b74rbr16tc16v" path="res://reflection/models/reflection.glb" id="4"]
 [ext_resource type="Texture2D" uid="uid://dpvvetx5ji1pr" path="res://decals/snw_suitad.png" id="4_n3374"]
@@ -9,7 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://bfgw7k7uhcju4" path="res://decals/snw_fairad.png" id="7_8endr"]
 [ext_resource type="Texture2D" uid="uid://bjnuh8v3bocp7" path="res://decals/snw_planet_01.png" id="8_2podw"]
 [ext_resource type="Texture2D" uid="uid://bdleybuse7qvd" path="res://decals/snw_security_1.png" id="9_vx1sg"]
-[ext_resource type="Script" path="res://reflection/benchmark.gd" id="10_6tlyv"]
+[ext_resource type="Script" uid="uid://c2dnnn0shxksv" path="res://reflection/benchmark.gd" id="10_6tlyv"]
 
 [sub_resource type="Environment" id="1"]
 background_mode = 1
@@ -105,8 +105,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ox2y4"]
 _data = {
-"RESET": SubResource("Animation_wouuj"),
-"benchmark": SubResource("Animation_r6p3r")
+&"RESET": SubResource("Animation_wouuj"),
+&"benchmark": SubResource("Animation_r6p3r")
 }
 
 [sub_resource type="Curve" id="Curve_geo2x"]
