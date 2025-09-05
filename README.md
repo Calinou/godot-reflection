@@ -1,8 +1,8 @@
-# Reflection for Godot 4.0
+# Reflection for Godot 4
 
 [![Screenshot of Reflection](https://raw.githubusercontent.com/Calinou/media/master/godot-reflection/screenshot-thumb.png)](https://raw.githubusercontent.com/Calinou/media/master/godot-reflection/screenshot.png)
 
-A port of [Tesseract](http://tesseract.gg)'s Reflection map for testing Godot 4.0's Vulkan renderer.
+A port of [Tesseract](http://tesseract.gg)'s Reflection map for testing Godot 4's Forward+ renderer.
 Uses SDFGI for global illumination in addition to volumetric fog and screen-space indirect lighting.
 
 The OBJ and MTL files were sourced from [game-maps-obj](https://github.com/Calinou/game-maps-obj).
@@ -24,7 +24,7 @@ You can also
 [download a ZIP archive](https://github.com/Calinou/godot-reflection/archive/master.zip)
 if you don't have Git installed.
 
-**You need Godot 4.0 or later to run this demo.**
+**You need Godot 4.4 or later to run this demo.**
 
 Once you have the project files, open the Godot Project Manager, click the
 **Import** button, then select the `project.godot` file of this project.
@@ -44,14 +44,14 @@ Copyright © 2020-present Hugo Locurcio and contributors
 
 - Unless otherwise specified, files in this repository are licensed under the
   MIT license, see [LICENSE.md](LICENSE.md) for more information.
-- The [Reflection](reflection/reflection.txt) map is licensed under CC BY-SA 3.0.
+- The [Reflection](reflection/reflection.txt) map by James "Skur" Rucks
+  and Yannick "Snowy" Weber is licensed under CC BY-SA 3.0 Unported.
 - Textures in the `reflection/` folder are licensed under various licenses:
   - `agf81/`: CC BY 3.0 Unported
-  - `cgtextures`: [Textures.com](https://www.textures.com/contact-terms-of-use.html)'s
+  - `cgtextures/`: [Textures.com](https://www.textures.com/contact-terms-of-use.html)'s
     license, may not be redistributed separately.
   - `base/`: CC0 1.0 Universal
   - `nieb/`: CC0 1.0 Universal
   - `nobiax/`: CC0 1.0 Universal
 
-A big thanks to the Cube 2 engine community for making and releasing all these maps
-:slightly_smiling_face:
+A big thanks to the Cube 2 engine community for making and releasing all these maps 🙂
