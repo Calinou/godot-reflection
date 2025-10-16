@@ -201,8 +201,10 @@ cast_shadow = 0
 mesh = SubResource("3")
 
 [node name="ReflectionProbe" type="ReflectionProbe" parent="GlassPanes/SkurVertical" unique_id=87449824]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0060043335, 0)
+blend_distance = 0.0
 max_distance = 4000.0
-size = Vector3(10, 6, 10)
+size = Vector3(10, 2.97, 4.205)
 box_projection = true
 enable_shadows = true
 
@@ -212,8 +214,9 @@ cast_shadow = 0
 mesh = SubResource("4")
 
 [node name="ReflectionProbe" type="ReflectionProbe" parent="GlassPanes/SkurHorizontal" unique_id=2107584136]
+blend_distance = 0.0
 max_distance = 4000.0
-size = Vector3(6, 10, 16)
+size = Vector3(7, 3.05, 9.39)
 box_projection = true
 enable_shadows = true
 
@@ -223,8 +226,9 @@ cast_shadow = 0
 mesh = SubResource("3")
 
 [node name="ReflectionProbe" type="ReflectionProbe" parent="GlassPanes/SnowyVertical" unique_id=831694366]
+blend_distance = 0.0
 max_distance = 4000.0
-size = Vector3(10, 6, 10)
+size = Vector3(10, 2.97, 4.205)
 box_projection = true
 enable_shadows = true
 
@@ -234,8 +238,9 @@ cast_shadow = 0
 mesh = SubResource("4")
 
 [node name="ReflectionProbe" type="ReflectionProbe" parent="GlassPanes/SnowyHorizontal" unique_id=1629694297]
+blend_distance = 0.0
 max_distance = 4000.0
-size = Vector3(6, 10, 16)
+size = Vector3(7, 3.05, 9.39)
 box_projection = true
 enable_shadows = true
 
@@ -444,7 +449,7 @@ script = ExtResource("10_6tlyv")
 curve = SubResource("Curve3D_ox2md")
 
 [node name="PathFollow3D" type="PathFollow3D" parent="Benchmark/CameraPath" unique_id=204566012]
-transform = Transform3D(0.97175145, -0.033349738, 0.23363572, 0, 0.98996747, 0.14130962, -0.23600395, -0.1373183, 0.96200025, 39.3801, 13.7768, 15.0667)
+transform = Transform3D(0.9717514, -0.033349738, 0.23363572, 0, 0.98996747, 0.14130962, -0.23600394, -0.1373183, 0.96200025, 39.3801, 13.7768, 15.0667)
 rotation_mode = 4
 
 [node name="Camera3D" type="Camera3D" parent="Benchmark/CameraPath/PathFollow3D" unique_id=754591006]
