@@ -15,9 +15,11 @@ dest_files=["res://.godot/imported/reflection.glb-7567b95765798ba2c1161e648adcc9
 
 nodes/root_type="Node3D"
 nodes/root_name="Scene Root"
+nodes/root_script=null
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
 nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
@@ -32,367 +34,460 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
 _subresources={
 "materials": {
 "slot1": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot1.tres"
+"use_external/fallback_path": "res://reflection/models/slot1.tres",
+"use_external/path": "uid://bovppcs4mvthv"
 },
 "slot100": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot100.tres"
+"use_external/fallback_path": "res://reflection/models/slot100.tres",
+"use_external/path": "uid://bbtax2t7mbff2"
 },
 "slot101": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot101.tres"
+"use_external/fallback_path": "res://reflection/models/slot101.tres",
+"use_external/path": "uid://c4bomhq4epidn"
 },
 "slot103": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot103.tres"
+"use_external/fallback_path": "res://reflection/models/slot103.tres",
+"use_external/path": "uid://7r5pvk6vh1ck"
 },
 "slot104": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot104.tres"
+"use_external/fallback_path": "res://reflection/models/slot104.tres",
+"use_external/path": "uid://4bsmqaj8euck"
 },
 "slot105": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot105.tres"
+"use_external/fallback_path": "res://reflection/models/slot105.tres",
+"use_external/path": "uid://b8jrde3p5mdgq"
 },
 "slot106": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot106.tres"
+"use_external/fallback_path": "res://reflection/models/slot106.tres",
+"use_external/path": "uid://ywfmqdl55v5y"
 },
 "slot107": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot107.tres"
+"use_external/fallback_path": "res://reflection/models/slot107.tres",
+"use_external/path": "uid://dprns7cdcp60t"
 },
 "slot108": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot108.tres"
+"use_external/fallback_path": "res://reflection/models/slot108.tres",
+"use_external/path": "uid://bjto56jg8fajl"
 },
 "slot109": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot109.tres"
+"use_external/fallback_path": "res://reflection/models/slot109.tres",
+"use_external/path": "uid://co0tr5xljibg"
 },
 "slot11": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot11.tres"
+"use_external/fallback_path": "res://reflection/models/slot11.tres",
+"use_external/path": "uid://ctksbhf1xsfp5"
 },
 "slot110": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot110.tres"
+"use_external/fallback_path": "res://reflection/models/slot110.tres",
+"use_external/path": "uid://cht5kmktju6dt"
 },
 "slot111": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot111.tres"
+"use_external/fallback_path": "res://reflection/models/slot111.tres",
+"use_external/path": "uid://c5oxmt5c2fv8f"
 },
 "slot112": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot112.tres"
+"use_external/fallback_path": "res://reflection/models/slot112.tres",
+"use_external/path": "uid://bcmx8kfuex4y4"
 },
 "slot113": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot113.tres"
+"use_external/fallback_path": "res://reflection/models/slot113.tres",
+"use_external/path": "uid://8dl1s1rio536"
 },
 "slot114": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot114.tres"
+"use_external/fallback_path": "res://reflection/models/slot114.tres",
+"use_external/path": "uid://cu8kk4wcco20e"
 },
 "slot115": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot115.tres"
+"use_external/fallback_path": "res://reflection/models/slot115.tres",
+"use_external/path": "uid://dm4i5fhddy31b"
 },
 "slot116": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot116.tres"
+"use_external/fallback_path": "res://reflection/models/slot116.tres",
+"use_external/path": "uid://dqclyhaegliij"
 },
 "slot117": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot117.tres"
+"use_external/fallback_path": "res://reflection/models/slot117.tres",
+"use_external/path": "uid://cuwwvditsb2gg"
 },
 "slot118": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot118.tres"
+"use_external/fallback_path": "res://reflection/models/slot118.tres",
+"use_external/path": "uid://bdrs73px2cayd"
 },
 "slot119": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot119.tres"
+"use_external/fallback_path": "res://reflection/models/slot119.tres",
+"use_external/path": "uid://pheihcqkdpcl"
 },
 "slot120": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot120.tres"
+"use_external/fallback_path": "res://reflection/models/slot120.tres",
+"use_external/path": "uid://bx2dsp6h2iam8"
 },
 "slot13": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot13.tres"
+"use_external/fallback_path": "res://reflection/models/slot13.tres",
+"use_external/path": "uid://dqa403qtv4lx3"
 },
 "slot14": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot14.tres"
+"use_external/fallback_path": "res://reflection/models/slot14.tres",
+"use_external/path": "uid://jrwocqeoisls"
 },
 "slot16": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot16.tres"
+"use_external/fallback_path": "res://reflection/models/slot16.tres",
+"use_external/path": "uid://c4jtu2gi24d8j"
 },
 "slot17": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot17.tres"
+"use_external/fallback_path": "res://reflection/models/slot17.tres",
+"use_external/path": "uid://b5m41o7s8cv2"
 },
 "slot18": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot18.tres"
+"use_external/fallback_path": "res://reflection/models/slot18.tres",
+"use_external/path": "uid://bqv6g8rc3pu0p"
 },
 "slot19": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot19.tres"
+"use_external/fallback_path": "res://reflection/models/slot19.tres",
+"use_external/path": "uid://c0iilunidreh5"
 },
 "slot20": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot20.tres"
+"use_external/fallback_path": "res://reflection/models/slot20.tres",
+"use_external/path": "uid://b1vef6dxq1ylg"
 },
 "slot22": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot22.tres"
+"use_external/fallback_path": "res://reflection/models/slot22.tres",
+"use_external/path": "uid://uxug0xvbmokh"
 },
 "slot23": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot23.tres"
+"use_external/fallback_path": "res://reflection/models/slot23.tres",
+"use_external/path": "uid://bjtk6rso5ox1g"
 },
 "slot24": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot24.tres"
+"use_external/fallback_path": "res://reflection/models/slot24.tres",
+"use_external/path": "uid://dhr7g5d8r0td3"
 },
 "slot25": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot25.tres"
+"use_external/fallback_path": "res://reflection/models/slot25.tres",
+"use_external/path": "uid://ch1f7xyaq0utm"
 },
 "slot28": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot28.tres"
+"use_external/fallback_path": "res://reflection/models/slot28.tres",
+"use_external/path": "uid://cqrptd0mggbr3"
 },
 "slot29": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot29.tres"
+"use_external/fallback_path": "res://reflection/models/slot29.tres",
+"use_external/path": "uid://djl1kj7ijr3p7"
 },
 "slot3": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot3.tres"
+"use_external/fallback_path": "res://reflection/models/slot3.tres",
+"use_external/path": "uid://cp5kab0pd20ry"
 },
 "slot30": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot30.tres"
+"use_external/fallback_path": "res://reflection/models/slot30.tres",
+"use_external/path": "uid://u83vyuwgoicb"
 },
 "slot31": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot31.tres"
+"use_external/fallback_path": "res://reflection/models/slot31.tres",
+"use_external/path": "uid://dsd3gmptwjk1k"
 },
 "slot33": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot33.tres"
+"use_external/fallback_path": "res://reflection/models/slot33.tres",
+"use_external/path": "uid://chjoum5brmpxa"
 },
 "slot35": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot35.tres"
+"use_external/fallback_path": "res://reflection/models/slot35.tres",
+"use_external/path": "uid://dlxqmo841y3tb"
 },
 "slot36": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot36.tres"
+"use_external/fallback_path": "res://reflection/models/slot36.tres",
+"use_external/path": "uid://c7q2gmwfi2ryr"
 },
 "slot37": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot37.tres"
+"use_external/fallback_path": "res://reflection/models/slot37.tres",
+"use_external/path": "uid://c3ps7ytssg288"
 },
 "slot38": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot38.tres"
+"use_external/fallback_path": "res://reflection/models/slot38.tres",
+"use_external/path": "uid://q281g3wmft1"
 },
 "slot4": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot4.tres"
+"use_external/fallback_path": "res://reflection/models/slot4.tres",
+"use_external/path": "uid://by52jtgcdkv72"
 },
 "slot40": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot40.tres"
+"use_external/fallback_path": "res://reflection/models/slot40.tres",
+"use_external/path": "uid://cqgyblepi6k2w"
 },
 "slot41": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot41.tres"
+"use_external/fallback_path": "res://reflection/models/slot41.tres",
+"use_external/path": "uid://bsf6nc4gi0iq3"
 },
 "slot42": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot42.tres"
+"use_external/fallback_path": "res://reflection/models/slot42.tres",
+"use_external/path": "uid://cgler6tcycl77"
 },
 "slot43": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot43.tres"
+"use_external/fallback_path": "res://reflection/models/slot43.tres",
+"use_external/path": "uid://vbey0vrjvd42"
 },
 "slot44": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot44.tres"
+"use_external/fallback_path": "res://reflection/models/slot44.tres",
+"use_external/path": "uid://fme3saojc8wf"
 },
 "slot45": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot45.tres"
+"use_external/fallback_path": "res://reflection/models/slot45.tres",
+"use_external/path": "uid://b4tey7eb2muyu"
 },
 "slot46": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot46.tres"
+"use_external/fallback_path": "res://reflection/models/slot46.tres",
+"use_external/path": "uid://dah8bhqnnalpo"
 },
 "slot47": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot47.tres"
+"use_external/fallback_path": "res://reflection/models/slot47.tres",
+"use_external/path": "uid://c1qiu0kkhu3ux"
 },
 "slot5": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot5.tres"
+"use_external/fallback_path": "res://reflection/models/slot5.tres",
+"use_external/path": "uid://gickc7ge58yp"
 },
 "slot52": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot52.tres"
+"use_external/fallback_path": "res://reflection/models/slot52.tres",
+"use_external/path": "uid://blg52d8ffa61p"
 },
 "slot53": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot53.tres"
+"use_external/fallback_path": "res://reflection/models/slot53.tres",
+"use_external/path": "uid://byy762kv71jx2"
 },
 "slot54": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot54.tres"
+"use_external/fallback_path": "res://reflection/models/slot54.tres",
+"use_external/path": "uid://dd3p5o27nkhr1"
 },
 "slot55": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot55.tres"
+"use_external/fallback_path": "res://reflection/models/slot55.tres",
+"use_external/path": "uid://ckbqqmsq0rdjt"
 },
 "slot57": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot57.tres"
+"use_external/fallback_path": "res://reflection/models/slot57.tres",
+"use_external/path": "uid://3ng2u4whtyar"
 },
 "slot58": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot58.tres"
+"use_external/fallback_path": "res://reflection/models/slot58.tres",
+"use_external/path": "uid://cmiaeroei534r"
 },
 "slot59": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot59.tres"
+"use_external/fallback_path": "res://reflection/models/slot59.tres",
+"use_external/path": "uid://bafdxk7558dtf"
 },
 "slot6": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot6.tres"
+"use_external/fallback_path": "res://reflection/models/slot6.tres",
+"use_external/path": "uid://dyqntr3y80qcv"
 },
 "slot60": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot60.tres"
+"use_external/fallback_path": "res://reflection/models/slot60.tres",
+"use_external/path": "uid://cjb2e2833evj8"
 },
 "slot61": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot61.tres"
+"use_external/fallback_path": "res://reflection/models/slot61.tres",
+"use_external/path": "uid://7lk2cke5v57e"
 },
 "slot63": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot63.tres"
+"use_external/fallback_path": "res://reflection/models/slot63.tres",
+"use_external/path": "uid://dsdhwyupcpi6f"
 },
 "slot67": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot67.tres"
+"use_external/fallback_path": "res://reflection/models/slot67.tres",
+"use_external/path": "uid://cyunniwvyx6ij"
 },
 "slot7": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot7.tres"
+"use_external/fallback_path": "res://reflection/models/slot7.tres",
+"use_external/path": "uid://mym73xdkov88"
 },
 "slot70": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot70.tres"
+"use_external/fallback_path": "res://reflection/models/slot70.tres",
+"use_external/path": "uid://br7xf2pidt6m8"
 },
 "slot71": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot71.tres"
+"use_external/fallback_path": "res://reflection/models/slot71.tres",
+"use_external/path": "uid://ukyweos6r0qw"
 },
 "slot72": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot72.tres"
+"use_external/fallback_path": "res://reflection/models/slot72.tres",
+"use_external/path": "uid://dpxk4lcf0rer4"
 },
 "slot73": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot73.tres"
+"use_external/fallback_path": "res://reflection/models/slot73.tres",
+"use_external/path": "uid://dltitqshghyyb"
 },
 "slot74": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot74.tres"
+"use_external/fallback_path": "res://reflection/models/slot74.tres",
+"use_external/path": "uid://drwynden2y0iv"
 },
 "slot75": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot75.tres"
+"use_external/fallback_path": "res://reflection/models/slot75.tres",
+"use_external/path": "uid://hyrrk81n4t7m"
 },
 "slot77": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot77.tres"
+"use_external/fallback_path": "res://reflection/models/slot77.tres",
+"use_external/path": "uid://1alc2phwg8ou"
 },
 "slot78": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot78.tres"
+"use_external/fallback_path": "res://reflection/models/slot78.tres",
+"use_external/path": "uid://b6cgj0lviui4"
 },
 "slot79": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot79.tres"
+"use_external/fallback_path": "res://reflection/models/slot79.tres",
+"use_external/path": "uid://bgo6owa2ygdyc"
 },
 "slot8": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot8.tres"
+"use_external/fallback_path": "res://reflection/models/slot8.tres",
+"use_external/path": "uid://nvsyhprucyyo"
 },
 "slot80": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot80.tres"
+"use_external/fallback_path": "res://reflection/models/slot80.tres",
+"use_external/path": "uid://c6inrt10ud1o5"
 },
 "slot83": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot83.tres"
+"use_external/fallback_path": "res://reflection/models/slot83.tres",
+"use_external/path": "uid://bntxqsf0oy0r0"
 },
 "slot84": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot84.tres"
+"use_external/fallback_path": "res://reflection/models/slot84.tres",
+"use_external/path": "uid://cldx7msyvuon5"
 },
 "slot85": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot85.tres"
+"use_external/fallback_path": "res://reflection/models/slot85.tres",
+"use_external/path": "uid://ddbbqh6fednwn"
 },
 "slot86": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot86.tres"
+"use_external/fallback_path": "res://reflection/models/slot86.tres",
+"use_external/path": "uid://b6t5xg2mrhuo"
 },
 "slot87": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot87.tres"
+"use_external/fallback_path": "res://reflection/models/slot87.tres",
+"use_external/path": "uid://ijulm8mvrbij"
 },
 "slot88": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot88.tres"
+"use_external/fallback_path": "res://reflection/models/slot88.tres",
+"use_external/path": "uid://dphcxf4vny2wm"
 },
 "slot89": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot89.tres"
+"use_external/fallback_path": "res://reflection/models/slot89.tres",
+"use_external/path": "uid://cqai8docm7nsa"
 },
 "slot90": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot90.tres"
+"use_external/fallback_path": "res://reflection/models/slot90.tres",
+"use_external/path": "uid://cf4aduk70rp2s"
 },
 "slot91": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot91.tres"
+"use_external/fallback_path": "res://reflection/models/slot91.tres",
+"use_external/path": "uid://bb1dm2x0fvakh"
 },
 "slot93": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot93.tres"
+"use_external/fallback_path": "res://reflection/models/slot93.tres",
+"use_external/path": "uid://bbny8robw3vyf"
 },
 "slot94": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot94.tres"
+"use_external/fallback_path": "res://reflection/models/slot94.tres",
+"use_external/path": "uid://bcd204y5ih7or"
 },
 "slot98": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot98.tres"
+"use_external/fallback_path": "res://reflection/models/slot98.tres",
+"use_external/path": "uid://d0hr52pje8kbs"
 },
 "slot99": {
 "use_external/enabled": true,
-"use_external/path": "res://reflection/models/slot99.tres"
+"use_external/fallback_path": "res://reflection/models/slot99.tres",
+"use_external/path": "uid://bp5per8v7esl5"
 }
 }
 }
