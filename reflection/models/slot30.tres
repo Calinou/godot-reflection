@@ -1,4 +1,4 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://u83vyuwgoicb"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://u83vyuwgoicb"]
 
 [ext_resource type="Texture2D" uid="uid://buxm5g3a64nor" path="res://reflection/cgtextures/buildingshighrise0436.png" id="1"]
 

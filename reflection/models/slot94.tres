@@ -1,4 +1,4 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bcd204y5ih7or"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bcd204y5ih7or"]
 
 [ext_resource type="Texture2D" uid="uid://dsad33kjg1nhw" path="res://reflection/nieb/complex/vent.png" id="1"]
 

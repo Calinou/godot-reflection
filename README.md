@@ -24,7 +24,7 @@ You can also
 [download a ZIP archive](https://github.com/Calinou/godot-reflection/archive/master.zip)
 if you don't have Git installed.
 
-**You need Godot 4.4 or later to run this demo.**
+**You need Godot 4.6 or later to run this demo.**
 
 Once you have the project files, open the Godot Project Manager, click the
 **Import** button, then select the `project.godot` file of this project.

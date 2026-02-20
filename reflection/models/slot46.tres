@@ -1,4 +1,4 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dah8bhqnnalpo"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dah8bhqnnalpo"]
 
 [ext_resource type="Texture2D" uid="uid://bnh6sivk4sr0w" path="res://reflection/nobiax/pattern037_diffuse.png" id="1"]
 

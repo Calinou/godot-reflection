@@ -1,4 +1,4 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dsd3gmptwjk1k"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dsd3gmptwjk1k"]
 
 [ext_resource type="Texture2D" uid="uid://ldv311cf68s8" path="res://reflection/cgtextures/carpet01.png" id="1"]
 

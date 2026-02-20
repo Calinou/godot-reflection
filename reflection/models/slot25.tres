@@ -1,4 +1,4 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://ch1f7xyaq0utm"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ch1f7xyaq0utm"]
 
 [ext_resource type="Texture2D" uid="uid://cna6r7kjxwd8v" path="res://reflection/nieb/complex/woodfloor01.png" id="1"]
 

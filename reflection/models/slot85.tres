@@ -1,4 +1,4 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://ddbbqh6fednwn"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ddbbqh6fednwn"]
 
 [ext_resource type="Texture2D" uid="uid://cidhjnfl8wqx8" path="res://reflection/agf81/concrete1w_diffuse.png" id="1"]
 

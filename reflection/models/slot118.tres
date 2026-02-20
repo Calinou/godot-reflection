@@ -1,4 +1,4 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bdrs73px2cayd"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bdrs73px2cayd"]
 
 [ext_resource type="Texture2D" uid="uid://pt3e5eimmcfv" path="res://reflection/cgtextures/tilesplain0119.png" id="1"]
 

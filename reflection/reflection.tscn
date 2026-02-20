@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://cfhbnwi4cnnwq"]
+[gd_scene format=3 uid="uid://cfhbnwi4cnnwq"]
 
 [ext_resource type="Script" uid="uid://djrd3ry0hirkq" path="res://camera.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://b1l85foeal1fv" path="res://decals/snowylogo01_d.png" id="3_rs8mk"]
@@ -28,7 +28,7 @@ glow_enabled = true
 glow_intensity = 0.2
 fog_light_color = Color(0.682353, 0.701961, 0.541176, 1)
 volumetric_fog_enabled = true
-volumetric_fog_density = 0.04
+volumetric_fog_density = 0.02
 volumetric_fog_gi_inject = 0.5
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_gjgmi"]
@@ -449,7 +449,7 @@ script = ExtResource("10_6tlyv")
 curve = SubResource("Curve3D_ox2md")
 
 [node name="PathFollow3D" type="PathFollow3D" parent="Benchmark/CameraPath" unique_id=204566012]
-transform = Transform3D(0.9717514, -0.033349738, 0.23363572, 0, 0.98996747, 0.14130962, -0.23600394, -0.1373183, 0.96200025, 39.3801, 13.7768, 15.0667)
+transform = Transform3D(0.9717513, -0.033349738, 0.23363572, 0, 0.98996747, 0.14130962, -0.2360039, -0.1373183, 0.96200025, 39.3801, 13.7768, 15.0667)
 rotation_mode = 4
 
 [node name="Camera3D" type="Camera3D" parent="Benchmark/CameraPath/PathFollow3D" unique_id=754591006]
@@ -459,9 +459,7 @@ far = 200.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Benchmark" unique_id=1225062377]
 root_node = NodePath("../..")
-libraries = {
-&"": SubResource("AnimationLibrary_ox2y4")
-}
+libraries/ = SubResource("AnimationLibrary_ox2y4")
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="Benchmark" unique_id=757717812]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 5, 8)

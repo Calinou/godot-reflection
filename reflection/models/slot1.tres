@@ -1,4 +1,4 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bovppcs4mvthv"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bovppcs4mvthv"]
 
 [ext_resource type="Texture2D" uid="uid://doviawnax1sc2" path="res://reflection/base/base1.png" id="1"]
 
