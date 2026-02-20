@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Tesseract Reflection Map"
 run/main_scene="res://reflection/reflection.tscn"
-config/features=PackedStringArray("4.6")
+config/features=PackedStringArray("4.7")
 config/icon="res://icon.png"
 
 [display]
@@ -93,6 +93,7 @@ toggle_mouse_capture={
 [rendering]
 
 textures/default_filters/anisotropic_filtering_level=4
+environment/ssao/type=1
 anti_aliasing/quality/use_debanding=true
 textures/decals/filter=5
 global_illumination/sdfgi/probe_ray_count=2
