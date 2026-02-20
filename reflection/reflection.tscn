@@ -14,8 +14,8 @@
 [sub_resource type="Environment" id="1"]
 background_mode = 1
 background_color = Color(0.752941, 0.843137, 0.941176, 1)
-tonemap_mode = 2
-tonemap_white = 12.69
+tonemap_mode = 4
+ssr_enabled = true
 ssao_enabled = true
 ssil_enabled = true
 sdfgi_enabled = true
@@ -449,7 +449,7 @@ script = ExtResource("10_6tlyv")
 curve = SubResource("Curve3D_ox2md")
 
 [node name="PathFollow3D" type="PathFollow3D" parent="Benchmark/CameraPath" unique_id=204566012]
-transform = Transform3D(0.9717513, -0.033349738, 0.23363572, 0, 0.98996747, 0.14130962, -0.2360039, -0.1373183, 0.96200025, 39.3801, 13.7768, 15.0667)
+transform = Transform3D(0.97175115, -0.033349738, 0.23363572, 0, 0.98996747, 0.14130962, -0.23600388, -0.1373183, 0.96200025, 39.3801, 13.7768, 15.0667)
 rotation_mode = 4
 
 [node name="Camera3D" type="Camera3D" parent="Benchmark/CameraPath/PathFollow3D" unique_id=754591006]
