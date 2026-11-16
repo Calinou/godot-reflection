@@ -33,7 +33,7 @@ by the editor). Exit the editor (go back to the project manager), then run
 the project. This is to make sure the editor does not render the demo in
 the background, which would slow down the running project a lot.
 
-> **Note**
+> [!NOTE]
 >
 > If some materials don't show up, try selecting `reflection/models/reflection.obj`
 > in the FileSystem dock, go to the Import dock then click **Reimport**.
@@ -48,7 +48,7 @@ Copyright © 2020-present Hugo Locurcio and contributors
   and Yannick "Snowy" Weber is licensed under CC BY-SA 3.0 Unported.
 - Textures in the `reflection/` folder are licensed under various licenses:
   - `agf81/`: CC BY 3.0 Unported
-  - `cgtextures/`: [Textures.com](https://www.textures.com/contact-terms-of-use.html)'s
+  - `cgtextures/`: [Textures.com](https://www.textures.com/about/terms-of-use)'s
     license, may not be redistributed separately.
   - `base/`: CC0 1.0 Universal
   - `nieb/`: CC0 1.0 Universal
